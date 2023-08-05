@@ -1,70 +1,202 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+ <h1>Hello React Front-End</h1>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo and presentation video](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
+## 🚀[Hello Rails Back-End PR Link](https://github.com/danutibe07/hello-rails-back-end/pull/1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📖 Hello React Front-End<a name="about-project"></a>
 
-### `npm test`
+<h6>
+The "hello-react-front-end" app enriches user experience by utilizing data from the Hello Rails back-end to display randomly generated greetings on its user interface (UI). When users interact with the front-end, the app communicates with the back-end to request a random greeting from the stored collection. The back-end processes the request, generates a random greeting, and sends it back to the front-end. Subsequently, the front-end dynamically updates the UI to showcase the newly fetched greeting, providing users with a fresh and engaging experience every time. This seamless integration of front-end and back-end components demonstrates the synergy between the two, exemplifying the power of full-stack development. By incorporating data flow from the back-end, the "hello-react-front-end" app offers a personalized and interactive encounter, making user interactions more enjoyable and memorable.</h6>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+## Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <b>This project only works client side right now.</b>
+  <ul>
+    <li>React</li>
+    <li>Redux</li>
+    <li>CSS</li>
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href=#>Local Server
+</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href=#>[Hello Rails Back-End](http://localhost:3000/api/greetings/) API's used</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Features -->
 
-### `npm run eject`
+# 💻 Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Home Page:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Displays random greeting retrieved from the [Hello Rails Back-End](http://localhost:3000/api/greetings/) API.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- GETTING STARTED -->
 
-## Learn More
+## 💻 Getting Started <a name="getting-started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get a local copy up and running, follow these steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Prerequisites <a name="prerequisites"></a>
 
-### Code Splitting
+- In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### It would be best if you had some familiarity with `React`, `Redux`, and `JS`.
 
-### Analyzing the Bundle Size
+- A Computer (MAC or PC)
+- code editor (VSCode,Atom etc...)
+- A browser (Chrome,Mozilla,Safari etc...)
+- Version Control System (Git and Github)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Setup <a name="setup"></a>
 
-### Making a Progressive Web App
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+       git clone https://github.com/danutibe07/hello-react-front-end.git
+       cd hello-react-front-end
+```
 
-### Advanced Configuration
+# Install <a name="install"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install this project with:
 
-### Deployment
+```bash
+     npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Run tests and check errors <a name="run-tests"></a>
 
-### `npm run build` fails to minify
+To run tests and check errors, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- To Test:-
+
+```bash
+   npm test
+```
+
+- To check Styelint error:-
+
+```bash
+   npx stylelint "\*_/_.{css,scss}"
+```
+
+- To check Eslint error:-
+
+```bash
+   npx eslint "**/*.{js,jsx}"
+```
+
+- To check webhint error:-
+
+```bash
+  npx hint .
+```
+
+# Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using:
+
+```bash
+   npm run build
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+## 👤 Abdus Sattar
+
+- GitHub: [danutibe07](https://github.com/danutibe07)
+- Twitter: [Abdus Sattar](https://twitter.com/Abdus_Sattar70)
+- LinkedIn: [Abdus Sattar](https://www.linkedin.com/in/abdus-sattar-a41a26215/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Show more api data**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Everybody is welcome to suggest, changes,Contributions, issues, and feature request in this project.
+
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch.
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, Please give me ⭐️ and you can use it following [MIT](./LICENSE) license.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank and appreciate who contributes this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is under [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
